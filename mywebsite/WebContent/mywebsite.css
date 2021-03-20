@@ -1,0 +1,36 @@
+header {
+    color: red;
+    text-align: center;
+    padding:0.4em;
+    font-size: 50px;
+}
+h2 {
+    text-align: center;
+}
+nav {
+
+    margin:2px;
+    padding: 1em;
+    background-color: #0b67cd;
+    width: 100%;
+    overflow: hidden;
+}
+nav ul li {
+    list-style-type: disc;
+    display: inline-block;
+    float: right;
+}
+nav ul a {
+    color: red;
+    text-decoration: #1e9d0d;
+    text-align: left;
+    float: left;
+    font-size: 20px;
+
+}
+table#t1 {
+    text-align: center;
+}
+td#s1 {
+    align-content: center;
+}

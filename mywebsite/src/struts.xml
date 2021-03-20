@@ -1,0 +1,38 @@
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+<package name="default" extends="struts-default">
+
+<action name="registrations" class="myweb.Registers">
+<result name="success">Register-success.jsp</result>
+<result name="input">sign.jsp</result>
+<result name="error">Register-error.jsp</result>
+</action>
+
+<action name="login" class="mywebdetial.Loguser">
+<result name="success">login-success.jsp</result>
+<result name="error">login-error.jsp</result>
+</action>
+
+<action name="deleterecord" class="myweb.Deleteid">
+<result name="success">Delete-success.jsp</result>
+<result name="error">Delete-error.jsp</result>
+</action>
+
+<action name="editdetails" class="myweb.editform">
+<result name="success">edit-success.jsp</result>
+<result name="error">edit-error.jsp</result>
+</action>
+
+<action name="searchaction" class="myweb.Searchname">
+<result name="success">searchsuccess.jsp</result>
+<result name="error">searcherror.jsp</result>
+</action>
+
+<action name="listofusers" class="myweb.Records">
+<result name="success">records-success.jsp</result>
+<result name="error">records-error.jsp</result>
+</action>
+</package>
+</struts>
